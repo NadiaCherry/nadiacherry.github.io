@@ -1,0 +1,198 @@
+/* ===========================
+   Nadia Cherry Portfolio
+   Version 1.0
+=========================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    background:#0B1120;
+
+    color:white;
+
+}
+
+/* Navigation */
+
+.navbar{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:25px 8%;
+
+    position:fixed;
+
+    width:100%;
+
+    top:0;
+
+    background:rgba(11,17,32,.85);
+
+    backdrop-filter:blur(12px);
+
+    z-index:1000;
+
+}
+
+.logo{
+
+    font-size:28px;
+
+    font-weight:bold;
+
+    color:#38BDF8;
+
+}
+
+.nav-links{
+
+    display:flex;
+
+    list-style:none;
+
+    gap:35px;
+
+}
+
+.nav-links a{
+
+    color:white;
+
+    text-decoration:none;
+
+    transition:.3s;
+
+}
+
+.nav-links a:hover{
+
+    color:#38BDF8;
+
+}
+
+/* Hero */
+
+.hero{
+
+    min-height:100vh;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    padding:0 10%;
+
+}
+
+.intro{
+
+    color:#38BDF8;
+
+    font-size:22px;
+
+    margin-bottom:10px;
+
+}
+
+.hero h1{
+
+    font-size:72px;
+
+    margin-bottom:15px;
+
+}
+
+.hero h2{
+
+    color:#9CA3AF;
+
+    font-weight:400;
+
+    margin-bottom:25px;
+
+}
+
+.description{
+
+    max-width:700px;
+
+    font-size:20px;
+
+    line-height:1.8;
+
+    color:#d4d4d4;
+
+}
+
+/* Buttons */
+
+.buttons{
+
+    margin-top:45px;
+
+}
+
+.btn{
+
+    display:inline-block;
+
+    padding:15px 35px;
+
+    border-radius:8px;
+
+    text-decoration:none;
+
+    margin-right:20px;
+
+    transition:.3s;
+
+    font-weight:bold;
+
+}
+
+.primary{
+
+    background:#38BDF8;
+
+    color:#0B1120;
+
+}
+
+.primary:hover{
+
+    transform:translateY(-4px);
+
+}
+
+.secondary{
+
+    border:2px solid #38BDF8;
+
+    color:#38BDF8;
+
+}
+
+.secondary:hover{
+
+    background:#38BDF8;
+
+    color:#0B1120;
+
+}
