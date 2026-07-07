@@ -760,3 +760,179 @@ font-size:2.2rem;
 }
 
 }
+
+/* ==========================
+   CAREER ROADMAP
+========================== */
+
+.roadmap{
+
+    padding:120px 8%;
+
+}
+
+.roadmap .container{
+
+    max-width:1400px;
+
+    margin:auto;
+
+}
+
+.roadmap-intro{
+
+    color:#CBD5E1;
+
+    font-size:1.1rem;
+
+    line-height:1.8;
+
+    max-width:750px;
+
+    margin:25px 0 70px;
+
+}
+
+.roadmap-line{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:flex-start;
+
+    position:relative;
+
+    margin-top:70px;
+
+}
+
+.roadmap-line::before{
+
+    content:"";
+
+    position:absolute;
+
+    top:28px;
+
+    left:0;
+
+    right:0;
+
+    height:4px;
+
+    background:#334155;
+
+    z-index:0;
+
+}
+
+.milestone{
+
+    position:relative;
+
+    width:18%;
+
+    text-align:center;
+
+    z-index:2;
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+.dot{
+
+    width:28px;
+
+    height:28px;
+
+    border-radius:50%;
+
+    margin:0 auto 25px;
+
+    border:5px solid #0B1120;
+
+}
+
+.completed .dot{
+
+    background:#38BDF8;
+
+}
+
+.current .dot{
+
+    background:#22C55E;
+
+}
+
+.future .dot{
+
+    background:#64748B;
+
+}
+
+.milestone h3{
+
+    color:#38BDF8;
+
+    font-size:1rem;
+
+    margin-bottom:10px;
+
+}
+
+.milestone h4{
+
+    color:white;
+
+    font-size:1.2rem;
+
+    margin-bottom:15px;
+
+}
+
+.milestone p{
+
+    color:#CBD5E1;
+
+    font-size:.95rem;
+
+    line-height:1.7;
+
+}
+
+/* ==========================
+   Roadmap Layout
+========================== */
+
+/* Top milestones */
+
+.milestone.top{
+
+    transform:translateY(-90px);
+
+}
+
+/* Bottom milestones */
+
+.milestone.bottom{
+
+    transform:translateY(120px);
+
+}
+
+/* Put the bottom dot back on the line */
+
+.milestone.bottom .dot{
+
+    order:-1;
+
+    margin-bottom:20px;
+
+}
