@@ -1112,3 +1112,106 @@ box-shadow:0 0 25px rgba(56,189,248,.4);
 
 }
 
+/* ==========================
+   RESUME
+========================== */
+
+.resume{
+
+    padding:140px 8%;
+
+}
+
+.resume .container{
+
+    max-width:1200px;
+
+    margin:auto;
+
+    text-align:center;
+
+}
+
+.resume h2{
+
+    font-size:3rem;
+
+    margin:15px 0 25px;
+
+}
+
+.resume-intro{
+
+    color:#CBD5E1;
+
+    max-width:700px;
+
+    margin:0 auto 70px;
+
+    line-height:1.8;
+
+}
+
+.resume-container{
+
+    display:flex;
+
+    flex-direction:column;
+
+    align-items:center;
+
+}
+
+.resume-preview{
+
+    width:100%;
+
+    max-width:700px;
+
+    border-radius:18px;
+
+    border:2px solid rgba(56,189,248,.15);
+
+    box-shadow:0 25px 60px rgba(0,0,0,.35);
+
+    transition:.35s ease;
+
+    cursor:pointer;
+
+}
+
+.resume-preview:hover{
+
+    transform:translateY(-10px) scale(1.02);
+
+    border-color:#38BDF8;
+
+    box-shadow:0 30px 70px rgba(56,189,248,.25);
+
+}
+
+.resume-buttons{
+
+    margin-top:40px;
+
+    display:flex;
+
+    gap:20px;
+
+    justify-content:center;
+
+    flex-wrap:wrap;
+
+}
+
+.resume-date{
+
+    margin-top:25px;
+
+    color:#94A3B8;
+
+    font-size:.9rem;
+
+    letter-spacing:1px;
+
+}
