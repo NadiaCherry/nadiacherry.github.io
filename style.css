@@ -1330,3 +1330,109 @@ box-shadow:0 0 25px rgba(56,189,248,.4);
     transform:scale(1.03);
 
 }
+
+/* ===========================
+   CONTACT
+=========================== */
+
+.contact{
+
+    padding:140px 8%;
+
+}
+
+.contact .container{
+
+    max-width:1200px;
+
+    margin:auto;
+
+    text-align:center;
+
+}
+
+.contact h2{
+
+    font-size:3rem;
+
+    margin:15px 0 25px;
+
+}
+
+.contact-text{
+
+    max-width:750px;
+
+    margin:0 auto 70px;
+
+    color:#CBD5E1;
+
+    line-height:1.8;
+
+    font-size:1.05rem;
+
+}
+
+.contact-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+    gap:30px;
+
+}
+
+.contact-card{
+
+    background:#16243A;
+
+    border:1px solid rgba(56,189,248,.15);
+
+    border-radius:18px;
+
+    padding:40px 30px;
+
+    text-decoration:none;
+
+    transition:.35s ease;
+
+}
+
+.contact-card:hover{
+
+    transform:translateY(-10px);
+
+    border-color:#38BDF8;
+
+    box-shadow:0 15px 40px rgba(56,189,248,.20);
+
+}
+
+.contact-card h3{
+
+    color:#38BDF8;
+
+    font-size:1.5rem;
+
+    margin-bottom:15px;
+
+}
+
+.contact-card p{
+
+    color:#CBD5E1;
+
+    line-height:1.7;
+
+}
+
+.contact-location{
+
+    margin-top:60px;
+
+    color:#94A3B8;
+
+    font-size:1rem;
+
+}
