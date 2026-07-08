@@ -1215,3 +1215,95 @@ box-shadow:0 0 25px rgba(56,189,248,.4);
     letter-spacing:1px;
 
 }
+
+/* ===========================
+   AWARDS
+=========================== */
+
+.awards{
+
+    padding:120px 8%;
+
+}
+
+.awards-intro{
+
+    max-width:800px;
+
+    margin:30px 0 60px;
+
+    color:#CBD5E1;
+
+    font-size:1.1rem;
+
+    line-height:1.8;
+
+}
+
+.awards-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+
+    gap:35px;
+
+}
+
+.award-card{
+
+    background:#16243A;
+
+    border:1px solid rgba(56,189,248,.20);
+
+    border-radius:18px;
+
+    padding:35px;
+
+    transition:.35s;
+
+}
+
+.award-card:hover{
+
+    transform:translateY(-8px);
+
+    border-color:#38BDF8;
+
+    box-shadow:0 15px 35px rgba(56,189,248,.20);
+
+}
+
+.award-icon{
+
+    font-size:42px;
+
+    margin-bottom:20px;
+
+}
+
+.award-card h3{
+
+    font-size:1.5rem;
+
+    margin-bottom:12px;
+
+}
+
+.award-date{
+
+    color:#38BDF8;
+
+    font-weight:600;
+
+    margin-bottom:20px;
+
+}
+
+.award-description{
+
+    color:#CBD5E1;
+
+    line-height:1.8;
+
+}
