@@ -1578,3 +1578,15 @@ box-shadow:0 0 25px rgba(56,189,248,.4);
     }
 
 }
+
+.expand-icon{
+
+    transition:.3s ease;
+
+}
+
+.competency-card.active .expand-icon{
+
+    transform:rotate(180deg);
+
+}
