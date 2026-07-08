@@ -1600,3 +1600,45 @@ box-shadow:0 0 25px rgba(56,189,248,.4);
     transform:rotate(180deg);
 
 }
+
+/* ===========================
+   FOOTER
+=========================== */
+
+.footer{
+
+    padding:40px 8%;
+
+    margin-top:120px;
+
+    border-top:1px solid rgba(255,255,255,.08);
+
+    text-align:center;
+
+}
+
+.footer p{
+
+    color:#94A3B8;
+
+    margin:8px 0;
+
+    font-size:.95rem;
+
+}
+
+.footer strong{
+
+    color:#38BDF8;
+
+    font-weight:600;
+
+}
+
+.footer-copy{
+
+    font-size:.85rem;
+
+    color:#64748B;
+
+}
