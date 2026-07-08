@@ -1551,11 +1551,17 @@ box-shadow:0 0 25px rgba(56,189,248,.4);
 
 }
 
+.competency-details{
+
+    overflow:hidden;
+
+}
+
 .competency-card.active .competency-details{
 
     display:block;
 
-    animation:fadeDown .35s ease;
+    animation:fadeDown .3s ease;
 
 }
 
@@ -1565,7 +1571,7 @@ box-shadow:0 0 25px rgba(56,189,248,.4);
 
         opacity:0;
 
-        transform:translateY(-10px);
+        transform:translateY(-8px);
 
     }
 
@@ -1581,7 +1587,11 @@ box-shadow:0 0 25px rgba(56,189,248,.4);
 
 .expand-icon{
 
-    transition:.3s ease;
+    font-size:1.5rem;
+
+    color:#38BDF8;
+
+    transition:transform .3s ease;
 
 }
 
