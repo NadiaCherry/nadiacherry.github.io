@@ -1436,3 +1436,145 @@ box-shadow:0 0 25px rgba(56,189,248,.4);
     font-size:1rem;
 
 }
+/* ===============================
+   CORE TECHNICAL COMPETENCIES
+================================ */
+
+.skills-intro{
+
+    max-width:820px;
+
+    margin:25px auto 70px;
+
+    text-align:center;
+
+    color:#CBD5E1;
+
+    line-height:1.8;
+
+}
+
+.competency-grid{
+
+    display:grid;
+
+    gap:30px;
+
+}
+
+.competency-card{
+
+    background:#16243A;
+
+    border:1px solid rgba(56,189,248,.15);
+
+    border-radius:18px;
+
+    padding:35px;
+
+    transition:.35s;
+
+}
+
+.competency-card:hover{
+
+    transform:translateY(-6px);
+
+    border-color:#38BDF8;
+
+    box-shadow:0 18px 40px rgba(56,189,248,.20);
+
+}
+
+.competency-header{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    margin-bottom:20px;
+
+}
+
+.competency-header h3{
+
+    color:#38BDF8;
+
+    font-size:1.7rem;
+
+}
+
+.expand-icon{
+
+    font-size:2rem;
+
+    color:#38BDF8;
+
+    font-weight:bold;
+
+}
+
+.competency-summary{
+
+    color:#CBD5E1;
+
+    line-height:1.8;
+
+    margin-bottom:25px;
+
+}
+
+.competency-details ul{
+
+    list-style:none;
+
+    padding:0;
+
+    margin:0;
+
+}
+
+.competency-details li{
+
+    padding:12px 0;
+
+    border-bottom:1px solid rgba(255,255,255,.06);
+
+    color:#E2E8F0;
+
+}
+.hidden{
+
+    display:none;
+
+}
+
+.competency-card.active .competency-details{
+
+    display:block;
+
+    animation:fadeDown .35s ease;
+
+}
+
+@keyframes fadeDown{
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(-10px);
+
+    }
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+}
